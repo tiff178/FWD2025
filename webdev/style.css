@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Garamond, serif;
+    line-height: 1.6;
+    background-image: url('background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: black;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #967bb6;
+    font-size: 50px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.fun-facts ul {
+    list-style-type: none;
+}
+
+.fun-facts li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.images {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.interactive {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-family: Garamond, serif;
+    background-color: #d1acfa;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#cac6cd;
+}
+
+#factDisplay {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: black;
+}
